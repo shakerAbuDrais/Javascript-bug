@@ -11,7 +11,7 @@ function closeNav() {
 }
 
 const submit = document.getElementById('submit');
-submit.addEventListener('click', (e) => {
+submit.addEventListener('click', () => {
   const email = document.getElementById('email').value;
   const emailLower = email.toLowerCase();
   const text = document.getElementById('text');
@@ -60,7 +60,7 @@ const sourceLink = ['https://github.com/shakerAbuDrais/Portfolio'];
 const infoArray = [
   {
     id: 0,
-    name: pName[0],
+    name: pName[7],
     featuredimg: featuredimg[0],
     description,
     technologies,
